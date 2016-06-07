@@ -18,7 +18,7 @@ ccm.component({
 
             };
             var fileref = {
-                "tag": "a",
+                "tag": "div",
                 "href": "",
                 "target": "_blank",
                 "style": "text-decoration: none",
@@ -50,6 +50,11 @@ ccm.component({
                 structure = data;
                 decideContent("node", data.Root, false);
             });
+            function callCat(event, payload){
+                console.log(event);
+                console.log(file.ref);
+                that.render();
+            };
 
             function toogleHide(children) {
                 children.each(function (index, child) {
@@ -212,7 +217,8 @@ ccm.component({
                     var newImage = JSON.parse(JSON.stringify(imageFile));
                     var newConnectorImage = JSON.parse(JSON.stringify(imageFile));
                     newFile.id = parent + "-" + filecount;
-                    newRef.href = file.ref;
+                    //newRef.href = file.ref;
+                    newRef.onclick = callCat.bind(null, file.ref);
                     newRef.inner = file.name;
                     newRef.id = parent + "-" + filecount + "ref";
                     filecount++;
