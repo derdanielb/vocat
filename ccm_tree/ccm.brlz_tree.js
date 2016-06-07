@@ -50,9 +50,10 @@ ccm.component({
                 structure = data;
                 decideContent("node", data.Root, false);
             });
-            function callCat(event, payload){
+            function callCat(payload, event){
+                console.log(payload);
                 console.log(event);
-                console.log(file.ref);
+
                 that.render();
             };
 
