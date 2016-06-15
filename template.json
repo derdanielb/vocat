@@ -1,0 +1,21 @@
+{
+  "main": {
+    "tag": "div",
+    "class": "root",
+    "id":"node",
+    "inner": [
+      "MAIN OF VOCAT"
+    ]
+  },
+  "folder": {
+    "tag" : "div",
+    "class" : "folder",
+    "id":"idddd",
+    "inner": "a folder"
+  },
+  "file": {
+    "tag": "div",
+    "class": "file",
+    "inner":["a file"]
+  }
+}
