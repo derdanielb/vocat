@@ -26,7 +26,7 @@ ccm.component(
             var reloadvocab = function(voc){
 
                 currentTreeDir = voc;
-                alert(voc);
+                console.log(voc);
                 that.atree = ccm.instance('ccm_tree/ccm.brlz_tree.js', {element: jQuery('#tree_area_2'), dir: currentTreeDir, whatacall:reloadvocab});
                 that.atree.render();
                 refreshTitle(voc);

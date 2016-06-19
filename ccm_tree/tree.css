@@ -3,7 +3,7 @@ body{
     font-size: 10pt;
 }
 
-.root > .folder {
+.root >* {
     color: black;
     cursor: pointer;
     /*display: inline-block;*/

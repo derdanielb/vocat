@@ -1,0 +1,60 @@
+{
+  "Root": {
+    "Folder": [
+      {
+        "name": "Meeting Friends",
+        "content": {
+          "File": [
+            {
+              "name": "Small Talk",
+              "ref": "demo.json"
+            },
+            {
+              "name": "Arrange a Meeting",
+              "ref": "demo.json"
+            }
+          ]
+        }
+      },
+      {
+        "name":"Seasons",
+        "content": {
+          "Folder": [
+            {
+              "name":"Spring",
+              "content":""
+            },
+            {
+              "name": "Summer",
+              "content": {
+                "File": [
+                  {
+                    "name": "Beach",
+                  "ref":"demo.json"
+                  },
+                  {
+                   "name":"Sports",
+                    "ref":"demo.json"
+                  }
+                ]
+              }
+            },
+            {
+              "name":"Fall"
+            },
+            {
+              "name":"Winter",
+              "content":""
+            }
+          ]
+        }
+      }
+    ],
+    "File": [
+      {
+        "name": "Time and Days",
+        "ref": "demo.json"
+      }
+    ]
+  }
+}
