@@ -1,0 +1,34 @@
+{
+  "Root": {
+    "Folder": [
+      {
+        "name": "Daily Conversation",
+        "content": {
+          "Folder": [
+            {
+              "name": "Shopping",
+              "content": {
+                "File": [
+                  {
+                    "name": "Shopping Food",
+                    "ref": "demo.json"
+                  },
+                  {
+                    "name": "Shopping Clothes",
+                    "ref": "ccm_tree/struct.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "File": [
+            {
+              "name": "Small Talk",
+              "ref": "ccm_tree/struct2.json"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

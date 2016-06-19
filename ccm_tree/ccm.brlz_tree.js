@@ -54,10 +54,13 @@ ccm.component({
                 decideContent("node", data.Root, false);
             });
             function callCat(payload, event){
+               //var caller = new Function( that.whatacall);
+               // caller();
+                that.whatacall(payload);
                 console.log(payload);
                 console.log(event);
 
-                that.render();
+                //that.render();
             };
 
             function toogleHide(children) {
