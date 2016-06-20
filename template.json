@@ -1,0 +1,10 @@
+{
+  "main": {
+    "tag": "div",
+    "class": "root",
+    "id":"node",
+    "inner": [
+      "MAIN OF VOCAT"
+    ]
+  }
+}

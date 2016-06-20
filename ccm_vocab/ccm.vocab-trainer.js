@@ -7,8 +7,8 @@ ccm.component(
     name: 'vocab-trainer',
     config: {
         key: 'vocab',
-        html: [ccm.store, {local: 'templates.json'}],
-        style: [ccm.load, 'style.css'],
+        html: [ccm.store, {local: 'ccm_vocab/templates.json'}],
+        style: [ccm.load, 'ccm_vocab/style.css'],
         //store: [ccm.store, {local: 'json/vocab.json'}],
         store: [ ccm.store, { url: 'ws://ccm2.inf.h-brs.de/index.js', store: 'vokabeltrainer' }],
         user: [ccm.instance, 'http://kaul.inf.h-brs.de/ccm/components/user2.js']

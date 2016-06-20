@@ -1,8 +1,10 @@
 ccm.component({
     name: 'brlz_tree',
     config: {
-        html: [ccm.store, {local: 'template.json'}],
-        jquery_ui: [ccm.load, 'https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js']
+        html: [ccm.store, {local: 'ccm_tree/template.json'}],
+        jquery_ui: [ccm.load, 'https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js'],
+        style: [ ccm.load, 'ccm_tree/tree.css' ],
+
     },
     Instance: function () {
 
@@ -31,13 +33,13 @@ ccm.component({
             };
             var imageFolder = {
                 "tag": "img",
-                "src": "folder_blank_file16.png",
+                "src": "ccm_tree/img/folder_blank_file16.png",
                 "align": "left",
                 "style": "margin-right: 4px;"
             };
             var imageFile = {
                 "tag": "img",
-                "src": "new_document16resized.png",
+                "src": "ccm_tree/img/new_document16resized.png",
                 "align": "left",
                 "class": "FileImg",
                 "style": "margin-right: 4px;"
@@ -47,27 +49,31 @@ ccm.component({
             element.html(ccm.helper.html(that.html.get('root')));
             var structure;
             $.getJSON(this.dir, function (data) {
+                console.log(data);
                 structure = data;
                 decideContent("node", data.Root, false);
             });
             function callCat(payload, event){
+               //var caller = new Function( that.whatacall);
+               // caller();
+                that.whatacall(payload);
                 console.log(payload);
                 console.log(event);
 
-                that.render();
+                //that.render();
             };
 
             function toogleHide(children) {
                 children.each(function (index, child) {
-                    if (element.find(child).attr('src') === "folder_blank_file16.png") {
-                        element.find(child).attr('src', "folder_blank_file16_folded.png");
+                    if (element.find(child).attr('src') === "ccm_tree/img/folder_blank_file16.png") {
+                        element.find(child).attr('src', "ccm_tree/img/folder_blank_file16_folded.png");
                     } else {
 
-                        if (element.find(child).attr('src') === "folder_blank_file16_folded.png") {
-                            element.find(child).attr('src', "folder_blank_file16.png");
+                        if (element.find(child).attr('src') === "ccm_tree/img/folder_blank_file16_folded.png") {
+                            element.find(child).attr('src', "ccm_tree/img/folder_blank_file16.png");
                         }
                         else {
-                            if (!(element.find(child).attr('src') === "c_middle.png" || element.find(child).attr('src') === "c_last.png" || element.find(child).attr('src') === "c_bridge.png")) {
+                            if (!(element.find(child).attr('src') === "ccm_tree/img/c_middle.png" || element.find(child).attr('src') === "ccm_tree/img/c_last.png" || element.find(child).attr('src') === "c_bridge.png")) {
                                 element.find(child).toggle('fast');
                             }
                         }
@@ -146,10 +152,10 @@ ccm.component({
                             newFolder.id = parent + "_" + foldercount;
                             foldercount++;
                             if (foldercount < currentFolder.length) {
-                                newConnectorImage.src = "c_middle.png";
+                                newConnectorImage.src = "ccm_tree/img/c_middle.png";
                             }
                             else {
-                                newConnectorImage.src = "c_last.png";
+                                newConnectorImage.src = "ccm_tree/img/c_last.png";
                                 lastFolderFlag = true;
                             }
                             if (lastFolderFlag) {
@@ -231,10 +237,10 @@ ccm.component({
                     }
 
                     if (filecount < filesArray.length) {
-                        newConnectorImage.src = "c_middle.png";
+                        newConnectorImage.src = "ccm_tree/img/c_middle.png";
                     }
                     else {
-                        newConnectorImage.src = "c_last.png";
+                        newConnectorImage.src = "ccm_tree/img/c_last.png";
                     }
 
                     lvl =  20;
