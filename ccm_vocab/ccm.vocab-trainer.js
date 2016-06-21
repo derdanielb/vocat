@@ -17,8 +17,12 @@ ccm.component( {
         self.render = function(callback) {
             var element = ccm.helper.element(self);
 
-            //self.user.login(function() {
 
+            //self.user.login(function() {
+            if(self.vocfield){
+                self.key = self.vocfield;
+            }
+            console.log(self.key);
                 self.store.get(self.key, function (dataset) { // Ab hier this == window, deshalb self!!!
 
                     if (dataset === null) {
