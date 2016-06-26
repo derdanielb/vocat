@@ -20,6 +20,14 @@ ccm.component(
             //https://code.jquery.com/ui/1.11.4/jquery-ui.min.js
             this.render = function () {
                 var that = this;
+
+                var folder = {
+                    "tag": "div",
+                    "class": "folder",
+                    "id": "%placeholder%",
+                    "inner": "a folder"
+
+                };
                 var reloadvocab = function (voc) {
 
                     currentTreeDir = voc;

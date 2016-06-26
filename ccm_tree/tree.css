@@ -2,12 +2,16 @@ body{
     font-family: "Segoe UI","Open Sans", serif;
     font-size: 10pt;
 }
+.root{
+    min-height: 361px;
+}
 
 .root >* {
     color: black;
     cursor: pointer;
     /*display: inline-block;*/
     /*float: left;*/
+
 }
 
 .root > a:link{
