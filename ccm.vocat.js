@@ -5,7 +5,8 @@ ccm.component(
             html: [ccm.store, {local: 'template.json'}],
             jquery_ui: [ccm.load, 'https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js'],
             tree: [ccm.instance, 'ccm_tree/ccm.brlz_tree.js'],
-            trainer: [ccm.instance, 'ccm_vocab/ccm.vocab-trainer.js']
+            trainer: [ccm.instance, 'ccm_vocab/ccm.vocab-trainer.js'],
+            style: [ ccm.load, 'vocat.css' ]
 
         },
         Instance: function () {
