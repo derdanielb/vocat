@@ -4,6 +4,7 @@ body{
 }
 .root{
     min-height: 361px;
+    max-width: 300px;
 }
 
 .root >* {

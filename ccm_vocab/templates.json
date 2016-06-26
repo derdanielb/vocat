@@ -1,7 +1,15 @@
 {
   "main": {
     "tag": "div",
-    "class": "main"
+    "class": "main",
+    "inner": [
+      {
+        "tag" : "div",
+        "id" : "currcat",
+        "class": "category",
+        "inner" : "Current category: none"
+      }
+    ]
   },
 
   "content": {

@@ -4,7 +4,7 @@
     "class": "main_vocat",
     "id":"node",
     "inner": [
-      "VOCAT - [VOC]abulary [CAT]egory trainer"
+      "VOCAT - <b>VOC</b>abulary <b>CAT</b>egory trainer"
     ]
   }
 }

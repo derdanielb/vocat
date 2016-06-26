@@ -1,13 +1,30 @@
 #test {
     display: inline-block;
     vertical-align: top;
-    width: 400px;
+    /*width: 400px;*/
 }
 
 #trainer {
     display: inline-block;
-    margin-top: 27px;
+    margin-top: 10px;
     min-height: 361px;
     border: solid 1px #2b5797;
-    padding: 5px
+    padding: 5px;
+    max-width: 288px;
+    overflow: auto;
+}
+
+#tree_area_2{
+    max-width: 300px;
+    display: inline-block;
+    width: 250px;
+    height: 388px;
+    margin-bottom: 0;
+}
+#app{
+    display: flex;
+}
+#currcat{
+    padding-bottom: 7px;
+    font-size: 12pt;
 }

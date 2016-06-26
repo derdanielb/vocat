@@ -29,6 +29,12 @@ ccm.component(
                     "inner": "a folder"
 
                 };
+                var file = {
+                    "tag": "div",
+                    "class": "file",
+
+                    "inner": "test"
+                };
                 var reloadvocab = function (voc) {
 
                     currentTreeDir = voc;
@@ -54,7 +60,9 @@ ccm.component(
                     element: jQuery('#trainer'),
                     vocfield: currentTreeDir
                 });
-                that.atrainer.render();
+                //that.atrainer.render();
+
+
 
             }
         }

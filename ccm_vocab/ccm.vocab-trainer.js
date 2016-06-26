@@ -40,6 +40,7 @@ ccm.component( {
                         // Anlegen des Main-Containers
                         var div_main = ccm.helper.html(self.html.get('main'));
                         element.html(div_main);
+                        element.find('div#currcat').html("Current category: "+self.vocfield);
 
                         // Div-Module vorbereiten
                         var div_content = ccm.helper.html(self.html.get('content'));
