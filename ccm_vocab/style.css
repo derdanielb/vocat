@@ -2,8 +2,8 @@
 .ccm-vocab-trainer > .main > .content > .card {
     background-color: #ffe22b;
     float: left;
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 260px;
+    min-width: 260px;
     padding: 10px;
 }
 .ccm-vocab-trainer > .main > .nav {
@@ -28,6 +28,7 @@
 .ccm-vocab-trainer > .main > .content > .subnav-add input {
     display: block;
     margin-bottom: 10px;
+    width: 90%;
 }
 .ccm-vocab-trainer > .main > .content > .subnav-card {
     float: left;
