@@ -11,11 +11,11 @@
                 "File": [
                   {
                     "name": "Shopping Food",
-                    "ref": "demo2.json"
+                    "ref": "shoppingfood"
                   },
                   {
                     "name": "Shopping Clothes",
-                    "ref": "demo2.json"
+                    "ref": "shoppingclothes"
                   }
                 ]
               }
@@ -24,7 +24,7 @@
           "File": [
             {
               "name": "Small Talk",
-              "ref": "demo2.json"
+              "ref": "smalltalk"
             }
           ]
         }

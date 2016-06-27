@@ -49,7 +49,7 @@ ccm.component({
             element.html(ccm.helper.html(that.html.get('root')));
             var structure;
             $.getJSON(this.dir, function (data) {
-                console.log(data);
+                //console.log(data);
                 structure = data;
                 decideContent("node", data.Root, false);
             });
@@ -57,8 +57,8 @@ ccm.component({
                //var caller = new Function( that.whatacall);
                // caller();
                 that.whatacall(payload);
-                console.log(payload);
-                console.log(event);
+                //console.log(payload);
+                //console.log(event);
 
                 //that.render();
             };
