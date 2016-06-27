@@ -10,7 +10,7 @@ ccm.component(
 
         },
         Instance: function () {
-            var currentTreeDir = "demo.json";
+            var currentTreeDir = "demo2.json";
 
             function refreshTitle(title) {
                 document.title = "VOCAT: " + title;
