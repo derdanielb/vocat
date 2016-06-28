@@ -4,13 +4,13 @@ ccm.component(
         config: {
             html: [ccm.store, {local: 'template.json'}],
             jquery_ui: [ccm.load, 'https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js'],
-            tree: [ccm.instance, 'ccm_tree/ccm.brlz_tree.js'],
-            trainer: [ccm.instance, 'ccm_vocab/ccm.vocab-trainer.js'],
-            style: [ ccm.load, 'vocat.css' ]
+            tree: [ccm.instance, 'http://derdanielb.github.io/vocat/resources/ccm_tree/ccm.brlz_tree.js'],
+            trainer: [ccm.instance, 'http://derdanielb.github.io/vocat/resources/ccm_vocab/ccm.vocab-trainer.js'],
+            style: [ ccm.load, 'http://derdanielb.github.io/vocat/resources/vocat.css' ]
 
         },
         Instance: function () {
-            var currentTreeDir = "demo2.json";
+            var currentTreeDir = "http://derdanielb.github.io/vocat/resources/demo2.json";
 
             function refreshTitle(title) {
                 document.title = "VOCAT: " + title;
