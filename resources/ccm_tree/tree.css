@@ -1,0 +1,33 @@
+body{
+    font-family: "Segoe UI","Open Sans", serif;
+    font-size: 10pt;
+}
+.root{
+    min-height: 361px;
+    max-width: 300px;
+}
+
+.root >* {
+    color: black;
+    cursor: pointer;
+    /*display: inline-block;*/
+    /*float: left;*/
+
+}
+
+.root > a:link{
+    color: black;
+    text-decoration: none;
+}
+.root > a:visited{
+    color: black;
+    text-decoration: none;
+}
+.root > .connector{
+    margin-right: 0;
+}
+.component{
+    border: solid 1px #2b5797;
+    margin: 10px;
+    padding: 5px;
+}
