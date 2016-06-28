@@ -1,1 +1,1 @@
-ccm.callback["D:\Coding\HBRS\WE\vocat_gh\vocat\vocat\template.json"]({"main":{"tag":"div","class":"main_vocat","id":"node","inner":["VOCAT - <b>VOC</b>abulary <b>CAT</b>egory trainer"]}});
+ccm.callback["http://derdanielb.github.io/vocat/resources/template.json"]({"main":{"tag":"div","class":"main_vocat","id":"node","inner":["VOCAT - <b>VOC</b>abulary <b>CAT</b>egory trainer"]}});
