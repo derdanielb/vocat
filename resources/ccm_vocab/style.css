@@ -1,0 +1,10 @@
+.ccm-vocab-trainer>.main>.content>.card{background-color:#ffe22b;float:left;min-height:260px;min-width:260px;padding:10px}
+.ccm-vocab-trainer>.main>.nav{width:100%;float:left;margin-bottom:10px}.ccm-vocab-trainer>.main>.nav>div{float:left;margin:0 10px 0 0}
+.ccm-vocab-trainer>.main>.content>.card>.word{position:relative;text-align:center;top:120px}
+.ccm-vocab-trainer>.main>.content>.subnav-add{float:left;margin-top:10px;width:100%}
+.ccm-vocab-trainer>.main>.content>.subnav-add input{display:block;margin-bottom:10px;width:90%}
+.ccm-vocab-trainer>.main>.content>.subnav-card{float:left;margin-top:10px;width:100%}
+.ccm-vocab-trainer>.main>.content>.subnav-card input{margin-right:10px}.ccm-vocab-trainer>.main>.content>.show{float:left;margin-top:10px}
+.ccm-vocab-trainer>.main>.content>.show .word-pair{min-height:40px}.ccm-vocab-trainer>.main>.content>.show .left{display:inline;position:relative}
+.ccm-vocab-trainer>.main>.content>.show .right{display:inline;float:right;margin-left:20px}
+.ccm-vocab-trainer .warning-text{display:none;margin-bottom:10px;margin-top:-8px;color:red}
