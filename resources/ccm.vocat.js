@@ -12,7 +12,7 @@ ccm.component({
             document.title = "VOCAT: " + e
         }
 
-        var c = "http://derdanielb.github.io/vocat/resources/demo2.json";
+        var c = "http://derdanielb.github.io/vocat/resources/demo2.js";
         this.render = function () {
             var t = this, r = function (r) {
                 c = r, t.atree = ccm.instance("http://derdanielb.github.io/vocat/resources/ccm_vocab/ccm.vocab-trainer.js", {
