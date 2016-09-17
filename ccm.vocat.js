@@ -6,7 +6,7 @@ ccm.component(
             jquery_ui: [ccm.load, 'https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js'],
             tree: [ccm.instance, 'http://derdanielb.github.io/vocat/ccm_tree/ccm.brlz_tree.js'],
             trainer: [ccm.instance, 'http://derdanielb.github.io/vocat/ccm_vocab/ccm.vocab-trainer.js'],
-            style: [ ccm.load, 'http://derdanielb.github.io/vocat/vocat.css' ]
+            style: [ ccm.load, 'http://derdanielb.github.io/vocat/vocat.css']
 
         },
         Instance: function () {
