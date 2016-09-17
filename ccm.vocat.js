@@ -15,35 +15,18 @@ ccm.component(
             function refreshTitle(title) {
                 document.title = "VOCAT: " + title;
             }
-
-            //tree:[ccm.instance, 'ccm_tree/ccm.brlz_tree.js', {element: jQuery('#tree_area_3'), dir: 'demo.json', whatacall: '{ alert("hi"); tree.render()}'}]
-
-            //https://code.jquery.com/ui/1.11.4/jquery-ui.min.js
             this.render = function () {
                 var that = this;
 
-                var folder = {
-                    "tag": "div",
-                    "class": "folder",
-                    "id": "%placeholder%",
-                    "inner": "a folder"
-
-                };
-                var file = {
-                    "tag": "div",
-                    "class": "file",
-
-                    "inner": "test"
-                };
                 var reloadvocab = function (voc) {
 
                     currentTreeDir = voc;
                     //console.log(voc);
-                    that.atree = ccm.instance('ccm_vocab/ccm.vocab-trainer.js', {
+                    that.atrainer = ccm.instance('ccm_vocab/ccm.vocab-trainer.js', {
                         element: jQuery('#trainer'),
                         vocfield: currentTreeDir
                     });
-                    that.atree.render();
+                    that.atrainer.render();
                     refreshTitle(voc);
                 };
                 var element = ccm.helper.element(this);
