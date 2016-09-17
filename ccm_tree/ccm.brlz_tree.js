@@ -3,7 +3,7 @@ ccm.component({
     config: {
         html: [ccm.store, {local: 'http://derdanielb.github.io/vocat/ccm_tree/template.json'}],
 
-        style: [ ccm.load, 'http://derdanielb.github.io/vocat/vocat/ccm_tree/tree.css']
+        style: [ ccm.load, 'http://derdanielb.github.io/vocat/ccm_tree/tree.css']
 
     },
     Instance: function () {
