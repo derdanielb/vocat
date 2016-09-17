@@ -48,11 +48,11 @@ ccm.component({
             var element = ccm.helper.element(this);
             element.html(ccm.helper.html(that.html.get('root')));
             var structure;
-            $.getJSON(this.dir, function (data) {
-                //console.log(data);
+            ccm.load(this.dir, function(data){
                 structure = data;
                 decideContent("node", data.Root, false);
             });
+
             function callCat(payload, event){
                //var caller = new Function( that.whatacall);
                // caller();
