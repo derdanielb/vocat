@@ -1,1 +1,0 @@
-ccm.callback["template.json"]({"root":{"tag":"div","class":"root","id":"node","inner":["<b>Vocabulary Categories</b>"]},"folder":{"tag":"div","class":"folder","id":"idddd","inner":"a folder"},"file":{"tag":"div","class":"file","inner":["a file"]}});

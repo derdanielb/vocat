@@ -1,1 +1,0 @@
-ccm.callback["template.json"]({"main":{"tag":"div","class":"main_vocat","id":"node","inner":["VOCAT - <b>VOC</b>abulary <b>CAT</b>egory trainer"]}});
