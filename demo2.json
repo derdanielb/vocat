@@ -1,4 +1,4 @@
-{
+ccm.callback['demo2.json']({
   "Root": {
     "Folder": [
       {
@@ -102,3 +102,4 @@
 
   }
 }
+);

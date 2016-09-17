@@ -1,4 +1,4 @@
-{
+ccm.callback['template.json']({
   "main": {
     "tag": "div",
     "class": "main_vocat",
@@ -7,4 +7,4 @@
       "VOCAT - <b>VOC</b>abulary <b>CAT</b>egory trainer"
     ]
   }
-}
+});
