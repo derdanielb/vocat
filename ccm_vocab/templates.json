@@ -1,4 +1,4 @@
-{
+ccm.callback['templates.json']({
   "main": {
     "tag": "div",
     "class": "main",
@@ -252,4 +252,4 @@
   }
 
 
-}
+});
