@@ -66,11 +66,11 @@ ccm.component({
             function toogleHide(children) {
                 children.each(function (index, child) {
                     if (element.find(child).attr('src') === "http://derdanielb.github.io/vocat/ccm_tree/img/folder_blank_file16.png") {
-                        element.find(child).attr('src', "ccm_tree/img/folder_blank_file16_folded.png");
+                        element.find(child).attr('src', "http://derdanielb.github.io/vocat/ccm_tree/img/folder_blank_file16_folded.png");
                     } else {
 
                         if (element.find(child).attr('src') === "http://derdanielb.github.io/vocat/ccm_tree/img/folder_blank_file16_folded.png") {
-                            element.find(child).attr('src', "ccm_tree/img/folder_blank_file16.png");
+                            element.find(child).attr('src', "http://derdanielb.github.io/vocat/ccm_tree/img/folder_blank_file16.png");
                         }
                         else {
                             if (!(element.find(child).attr('src') === "http://derdanielb.github.io/vocat/ccm_tree/img/c_middle.png" || element.find(child).attr('src') === "http://derdanielb.github.io/vocat/ccm_tree/img/c_last.png" || element.find(child).attr('src') === "http://derdanielb.github.io/vocat/c_bridge.png")) {
