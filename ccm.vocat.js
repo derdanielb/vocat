@@ -2,7 +2,7 @@ ccm.component(
     {
         name: 'vocat',
         config: {
-            html: [ccm.store, {local: '../vocat/template.json'}],
+            html: [ccm.store, {local: 'http://derdanielb.github.io/vocat/template.json'}],
             jquery_ui: [ccm.load, 'https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js'],
             tree: [ccm.instance, 'http://derdanielb.github.io/vocat/ccm_tree/ccm.brlz_tree.js'],
             trainer: [ccm.instance, 'http://derdanielb.github.io/vocat/ccm_vocab/ccm.vocab-trainer.js'],
