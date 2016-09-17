@@ -6,7 +6,7 @@ ccm.component( {
     config: {
         key: 'vocab',
         html: [ccm.store, {local: 'http://derdanielb.github.io/vocat/ccm_vocab/templates.json'}],
-        style: [ccm.load, '../ccm_vocab/style.css'],
+        style: [ccm.load, '../vocat/ccm_vocab/style.css'],
         //store: [ccm.store, {local: 'json/vocab.json'}],
         store: [ ccm.store, { url: 'ws://ccm2.inf.h-brs.de/index.js', store: 'vokabeltrainer' }],
         user: [ccm.instance, 'http://kaul.inf.h-brs.de/ccm/components/user2.js']
