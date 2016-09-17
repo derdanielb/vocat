@@ -2,7 +2,7 @@
 .ccm-vocab-trainer > .main > .content > .card {
     background-color: #ffe22b;
     float: left;
-    min-height: 260px;
+    min-height: 196px;
     min-width: 260px;
     padding: 10px;
 }
@@ -18,7 +18,7 @@
 .ccm-vocab-trainer > .main > .content > .card > .word {
     position: relative;
     text-align: center;
-    top: 120px;
+    top: 100px;
 }
 .ccm-vocab-trainer > .main > .content > .subnav-add {
     float: left;
@@ -37,6 +37,8 @@
 }
 .ccm-vocab-trainer > .main > .content > .subnav-card input {
     margin-right: 10px;
+    display: block;
+    width: 90%;
 }
 .ccm-vocab-trainer > .main > .content > .show {
     float: left;
