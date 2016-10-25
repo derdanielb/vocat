@@ -9,5 +9,6 @@ Contributors:
 - [https://github.com/WatAa]
 - [https://github.com/derdanielb]
 
-A live demo:
+A live demo can be found here:
+
 http://derdanielb.github.io/vocat/
