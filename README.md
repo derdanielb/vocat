@@ -10,5 +10,4 @@ Contributors:
 - [https://github.com/derdanielb]
 
 A live demo can be found here:
-
 http://derdanielb.github.io/vocat/
